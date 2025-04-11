@@ -1,0 +1,21 @@
+import java.awt.Graphics;
+import java.applet.Applet;
+public class A extends applet
+{
+	public void init()
+	{
+	      System.out.println("hello");
+	}
+	public void start()
+	{
+	      System.out.println("hii");
+	}
+	public void paint(Graphics ref)
+	{
+	     System.out.println("hello all");
+	}
+	public void stop()
+	{
+	     System.out.println("hii all");
+	}
+}
